@@ -160,7 +160,7 @@
 }
 
 .card-body h3 {
-    color: #ff533d;
+    color: #fc260a;
 }
 
 .card-body p {
@@ -317,7 +317,7 @@ footer p {
 
 /*------------ ANIMATIONS -------------*/
 
-@keyframes animate-logo-bike {
+@keyframes animate-logo-play {
     0% {
         stroke-dashoffset: 0;
     }
@@ -334,16 +334,6 @@ footer p {
     }
 }
 
-@keyframes animate-logo-circle {
-    from {
-        filter: blur(12px);
-        opacity: 0;
-    }
-    to {
-        filter: blur(0px);
-        opacity: 1;
-    }
-}
 
 @keyframes animate-logo-flip {
     0% {
